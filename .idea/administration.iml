@@ -5,6 +5,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
+<<<<<<< HEAD
       <library name="PHP Runtime" type="php">
         <CLASSES>
           <root url="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard" />
@@ -21,6 +22,14 @@
         </CLASSES>
         <SOURCES>
           <root url="phar://$MODULE_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Fixtures/includes/ProjectWithXsdExtensionInPhar.phar/" />
+=======
+      <library name="PHARS">
+        <CLASSES>
+          <root url="phar://$MODULE_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Fixtures/includes/ProjectWithXsdExtensionInPhar.phar" />
+        </CLASSES>
+        <SOURCES>
+          <root url="phar://$MODULE_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Fixtures/includes/ProjectWithXsdExtensionInPhar.phar" />
+>>>>>>> 3eee283371f7e24f07f02f2e5e0f85bb6e06afa9
         </SOURCES>
       </library>
     </orderEntry>

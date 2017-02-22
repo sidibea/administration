@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 nb_users:
     resource: "@NBUsersBundle/Resources/config/routing.yml"
     prefix:   /
@@ -9,3 +10,5 @@ nb_main:
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
+=======
+>>>>>>> 3eee283371f7e24f07f02f2e5e0f85bb6e06afa9
