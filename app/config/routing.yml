@@ -1,3 +1,11 @@
+nb_users:
+    resource: "@NBUsersBundle/Resources/config/routing.yml"
+    prefix:   /
+
+nb_main:
+    resource: "@NBMainBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
