@@ -200,6 +200,13 @@ class ComposerStaticInit57d1d8c2b18307e05a8a1ecf5a850ca0
                 0 => __DIR__ . '/..' . '/psr/log',
             ),
         ),
+        'F' => 
+        array (
+            'FOS\\UserBundle' => 
+            array (
+                0 => __DIR__ . '/..' . '/friendsofsymfony/user-bundle',
+            ),
+        ),
         'D' => 
         array (
             'Doctrine\\ORM\\' => 
