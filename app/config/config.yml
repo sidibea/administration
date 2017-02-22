@@ -65,3 +65,16 @@ swiftmailer:
     username:  "%mailer_user%"
     password:  "%mailer_password%"
     spool:     { type: memory }
+assetic:
+  debug:          '%kernel.debug%'
+  use_controller: '%kernel.debug%'
+  filters:
+    cssrewrite: ~
+    jsqueeze:   ~
+    scssphp:
+      formatter: 'Leafo\ScssPhp\Formatter\Compressed'
+
+fos_user:
+    db_driver:     orm                       # Le type de BDD à utiliser, nous utilisons l'ORM Doctrine depuis le début
+    firewall_name: main                      # Le nom du firewall derrière lequel on utilisera ces utilisateurs
+    user_class:    NB\UsersBundle\Entity\Users # La classe de l'entité User que nous utilisons
