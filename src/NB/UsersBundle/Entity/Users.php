@@ -3,6 +3,7 @@
 namespace NB\UsersBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use FOS\UserBundle\Entity\User as BaseUsers;
 
 /**
  * Users
@@ -10,7 +11,7 @@ use Doctrine\ORM\Mapping as ORM;
  * @ORM\Table(name="users")
  * @ORM\Entity(repositoryClass="NB\UsersBundle\Repository\UsersRepository")
  */
-class Users
+class Users extends BaseUsers
 {
     /**
      * @var int
@@ -19,7 +20,7 @@ class Users
      * @ORM\Id
      * @ORM\GeneratedValue(strategy="AUTO")
      */
-    private $id;
+   protected $id;
 
 
     /**

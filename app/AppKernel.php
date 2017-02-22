@@ -15,21 +15,15 @@ class AppKernel extends Kernel
             new Symfony\Bundle\SwiftmailerBundle\SwiftmailerBundle(),
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
-<<<<<<< HEAD
-            new AppBundle\AppBundle(),
-            new NB\MainBundle\NBMainBundle(),
-            new NB\UsersBundle\NBUsersBundle(),
-=======
+
+
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
-<<<<<<< HEAD
+
             new FOS\UserBundle\FOSUserBundle(),
             new NB\MainBundle\NBMainBundle(),
             new NB\UsersBundle\NBUsersBundle(),
-=======
-
->>>>>>> 3eee283371f7e24f07f02f2e5e0f85bb6e06afa9
->>>>>>> 8d2e94202916750ac8ac14040aa1e3677c513278
         );
+
 
         if (in_array($this->getEnvironment(), array('dev', 'test'), true)) {
             $bundles[] = new Symfony\Bundle\DebugBundle\DebugBundle();
