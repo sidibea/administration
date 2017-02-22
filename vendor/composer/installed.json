@@ -17,7 +17,7 @@
         "require": {
             "php": ">=5.3.2"
         },
-        "time": "2014-09-09 13:34:57",
+        "time": "2014-09-09T13:34:57+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -78,7 +78,7 @@
             "doctrine/cache": "1.*",
             "phpunit/phpunit": "4.*"
         },
-        "time": "2015-08-31 12:32:49",
+        "time": "2015-08-31T12:32:49+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -147,7 +147,7 @@
             "symfony/debug": "~2.7",
             "symfony/phpunit-bridge": "~2.7"
         },
-        "time": "2015-11-05 12:49:06",
+        "time": "2015-11-05T12:49:06+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -278,7 +278,7 @@
             "ocramius/proxy-manager": "~0.4|~1.0",
             "phpdocumentor/reflection": "^1.0.7"
         },
-        "time": "2015-11-30 17:26:10",
+        "time": "2015-11-30T17:26:10+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -352,7 +352,7 @@
             "symfony/class-loader": "For using the ACL generateSql script",
             "symfony/finder": "For using the ACL generateSql script"
         },
-        "time": "2015-11-18 13:41:01",
+        "time": "2015-11-18T13:41:01+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -403,7 +403,7 @@
         "require": {
             "php": ">=5.3.3"
         },
-        "time": "2015-11-04 20:28:58",
+        "time": "2015-11-04T20:28:58+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -463,7 +463,7 @@
         "suggest": {
             "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
         },
-        "time": "2015-11-10 00:45:41",
+        "time": "2015-11-10T00:45:41+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -508,7 +508,7 @@
             "paragonie/random_compat": "~1.0",
             "php": ">=5.3.3"
         },
-        "time": "2015-11-04 20:28:58",
+        "time": "2015-11-04T20:28:58+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -569,7 +569,7 @@
             "php": ">=5.3.3",
             "symfony/polyfill-util": "~1.0"
         },
-        "time": "2015-11-04 20:28:58",
+        "time": "2015-11-04T20:28:58+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -626,7 +626,7 @@
         "require-dev": {
             "phpunit/phpunit": "4.*"
         },
-        "time": "2014-11-20 16:49:30",
+        "time": "2014-11-20T16:49:30+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -671,7 +671,7 @@
             "ircmaxell/password-compat": "~1.0",
             "php": ">=5.3.3"
         },
-        "time": "2015-11-04 20:28:58",
+        "time": "2015-11-04T20:28:58+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -728,7 +728,7 @@
         "require": {
             "php": ">=5.3.3"
         },
-        "time": "2015-11-04 20:28:58",
+        "time": "2015-11-04T20:28:58+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -788,7 +788,7 @@
         "require": {
             "php": ">=5.3.3"
         },
-        "time": "2015-11-04 20:28:58",
+        "time": "2015-11-04T20:28:58+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -847,7 +847,7 @@
             "php": ">=5.3.3",
             "symfony/intl": "~2.3|~3.0"
         },
-        "time": "2015-11-04 20:28:58",
+        "time": "2015-11-04T20:28:58+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -900,7 +900,7 @@
             "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
             "shasum": ""
         },
-        "time": "2012-12-21 11:40:51",
+        "time": "2012-12-21T11:40:51+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -946,7 +946,7 @@
         "require-dev": {
             "phpunit/phpunit": "4.*"
         },
-        "time": "2015-11-06 14:35:42",
+        "time": "2015-11-06T14:35:42+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1015,7 +1015,7 @@
         "require-dev": {
             "phpunit/phpunit": "~4.0"
         },
-        "time": "2015-04-14 22:21:58",
+        "time": "2015-04-14T22:21:58+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1088,7 +1088,7 @@
             "predis/predis": "~1.0",
             "satooshi/php-coveralls": "~0.6"
         },
-        "time": "2015-11-02 18:35:48",
+        "time": "2015-11-02T18:35:48+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1160,7 +1160,7 @@
         "require-dev": {
             "phpunit/phpunit": "~3.7"
         },
-        "time": "2015-08-31 13:00:22",
+        "time": "2015-08-31T13:00:22+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1230,7 +1230,7 @@
         "require-dev": {
             "phpunit/phpunit": "3.7.*"
         },
-        "time": "2014-01-12 16:20:24",
+        "time": "2014-01-12T16:20:24+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1300,7 +1300,7 @@
         "suggest": {
             "symfony/security-acl": "For using this bundle to cache ACLs"
         },
-        "time": "2015-11-27 04:59:07",
+        "time": "2015-11-27T04:59:07+00:00",
         "type": "symfony-bundle",
         "extra": {
             "branch-alias": {
@@ -1376,7 +1376,7 @@
         "suggest": {
             "symfony/console": "For helpful console commands such as SQL execution and import of files."
         },
-        "time": "2015-09-16 16:29:33",
+        "time": "2015-09-16T16:29:33+00:00",
         "bin": [
             "bin/doctrine-dbal"
         ],
@@ -1459,7 +1459,7 @@
             "doctrine/orm": "The Doctrine ORM integration is optional in the bundle.",
             "symfony/web-profiler-bundle": "to use the data collector"
         },
-        "time": "2015-11-04 21:33:02",
+        "time": "2015-11-04T21:33:02+00:00",
         "type": "symfony-bundle",
         "extra": {
             "branch-alias": {
@@ -1528,7 +1528,7 @@
             "phpunit/phpunit": "~4.0",
             "squizlabs/php_codesniffer": "~2.0"
         },
-        "time": "2015-06-14 21:17:01",
+        "time": "2015-06-14T21:17:01+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1592,7 +1592,7 @@
         "suggest": {
             "symfony/yaml": "If you want to use YAML Metadata Mapping Driver"
         },
-        "time": "2015-11-23 12:44:25",
+        "time": "2015-11-23T12:44:25+00:00",
         "bin": [
             "bin/doctrine",
             "bin/doctrine.php"
@@ -1662,7 +1662,7 @@
             "phpspec/prophecy-phpunit": "~1.0",
             "symfony/filesystem": "~2.2"
         },
-        "time": "2015-11-10 17:04:01",
+        "time": "2015-11-10T17:04:01+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1709,7 +1709,7 @@
         "require": {
             "symfony/console": "~2.0|~3.0"
         },
-        "time": "2015-11-07 08:07:40",
+        "time": "2015-11-07T08:07:40+00:00",
         "bin": [
             "security-checker"
         ],
@@ -1762,7 +1762,7 @@
             "symfony/http-kernel": "~2.3|~3.0",
             "symfony/process": "~2.3|~3.0"
         },
-        "time": "2015-11-24 20:13:56",
+        "time": "2015-11-24T20:13:56+00:00",
         "type": "symfony-bundle",
         "extra": {
             "branch-alias": {
@@ -1819,7 +1819,7 @@
             "symfony/psr-http-message-bridge": "To use the PSR-7 converters",
             "symfony/security-bundle": ""
         },
-        "time": "2015-10-28 15:47:04",
+        "time": "2015-10-28T15:47:04+00:00",
         "type": "symfony-bundle",
         "extra": {
             "branch-alias": {
@@ -1895,7 +1895,7 @@
             "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
             "videlalvaro/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib"
         },
-        "time": "2015-10-14 12:51:02",
+        "time": "2015-10-14T12:51:02+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1954,7 +1954,7 @@
             "symfony/console": "~2.3|~3.0",
             "symfony/yaml": "~2.3|~3.0"
         },
-        "time": "2015-11-17 10:02:29",
+        "time": "2015-11-17T10:02:29+00:00",
         "type": "symfony-bundle",
         "extra": {
             "branch-alias": {
@@ -2009,7 +2009,7 @@
         "require-dev": {
             "mockery/mockery": "~0.9.1,<0.9.4"
         },
-        "time": "2015-06-06 14:19:39",
+        "time": "2015-06-06T14:19:39+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2072,7 +2072,7 @@
         "suggest": {
             "psr/log": "Allows logging"
         },
-        "time": "2014-12-01 17:44:50",
+        "time": "2014-12-01T17:44:50+00:00",
         "type": "symfony-bundle",
         "extra": {
             "branch-alias": {
@@ -2128,7 +2128,7 @@
             "symfony/doctrine-bridge": "~2.7|~3.0",
             "twig/twig": "~1.18"
         },
-        "time": "2015-11-10 13:25:32",
+        "time": "2015-11-10T13:25:32+00:00",
         "type": "symfony-bundle",
         "extra": {
             "branch-alias": {
@@ -2177,7 +2177,7 @@
         "suggest": {
             "symfony/debug": "For tracking deprecated interfaces usages at runtime with DebugClassLoader"
         },
-        "time": "2015-11-06 10:15:01",
+        "time": "2015-11-06T10:15:01+00:00",
         "type": "symfony-bridge",
         "extra": {
             "branch-alias": {
@@ -2212,5 +2212,156 @@
         ],
         "description": "Symfony PHPUnit Bridge",
         "homepage": "https://symfony.com"
+    },
+    {
+        "name": "kriswallsmith/assetic",
+        "version": "v1.3.2",
+        "version_normalized": "1.3.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/kriswallsmith/assetic.git",
+            "reference": "9928f7c4ad98b234e3559d1049abd13387f86db5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/kriswallsmith/assetic/zipball/9928f7c4ad98b234e3559d1049abd13387f86db5",
+            "reference": "9928f7c4ad98b234e3559d1049abd13387f86db5",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.1",
+            "symfony/process": "~2.1|~3.0"
+        },
+        "conflict": {
+            "twig/twig": "<1.23"
+        },
+        "require-dev": {
+            "cssmin/cssmin": "3.0.1",
+            "joliclic/javascript-packer": "1.1",
+            "kamicane/packager": "1.0",
+            "leafo/lessphp": "^0.3.7",
+            "leafo/scssphp": "~0.1",
+            "mrclay/minify": "~2.2",
+            "patchwork/jsqueeze": "~1.0|~2.0",
+            "phpunit/phpunit": "~4.8",
+            "psr/log": "~1.0",
+            "ptachoire/cssembed": "~1.0",
+            "symfony/phpunit-bridge": "~2.7|~3.0",
+            "twig/twig": "~1.8|~2.0"
+        },
+        "suggest": {
+            "leafo/lessphp": "Assetic provides the integration with the lessphp LESS compiler",
+            "leafo/scssphp": "Assetic provides the integration with the scssphp SCSS compiler",
+            "leafo/scssphp-compass": "Assetic provides the integration with the SCSS compass plugin",
+            "patchwork/jsqueeze": "Assetic provides the integration with the JSqueeze JavaScript compressor",
+            "ptachoire/cssembed": "Assetic provides the integration with phpcssembed to embed data uris",
+            "twig/twig": "Assetic provides the integration with the Twig templating engine"
+        },
+        "time": "2015-11-12T13:51:40+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Assetic": "src/"
+            },
+            "files": [
+                "src/functions.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kris Wallsmith",
+                "email": "kris.wallsmith@gmail.com",
+                "homepage": "http://kriswallsmith.net/"
+            }
+        ],
+        "description": "Asset Management for PHP",
+        "homepage": "https://github.com/kriswallsmith/assetic",
+        "keywords": [
+            "assets",
+            "compression",
+            "minification"
+        ]
+    },
+    {
+        "name": "symfony/assetic-bundle",
+        "version": "v2.8.0",
+        "version_normalized": "2.8.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/assetic-bundle.git",
+            "reference": "aa5b4f8b712f38745928fa845ddb73300bb2af6d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/assetic-bundle/zipball/aa5b4f8b712f38745928fa845ddb73300bb2af6d",
+            "reference": "aa5b4f8b712f38745928fa845ddb73300bb2af6d",
+            "shasum": ""
+        },
+        "require": {
+            "kriswallsmith/assetic": "~1.3",
+            "php": ">=5.3.0",
+            "symfony/console": "~2.3|~3.0",
+            "symfony/dependency-injection": "~2.3|~3.0",
+            "symfony/framework-bundle": "~2.3|~3.0",
+            "symfony/yaml": "~2.3|~3.0"
+        },
+        "conflict": {
+            "kriswallsmith/spork": "<=0.2",
+            "twig/twig": "<1.20"
+        },
+        "require-dev": {
+            "kriswallsmith/spork": "~0.3",
+            "patchwork/jsqueeze": "~1.0",
+            "symfony/class-loader": "~2.3|~3.0",
+            "symfony/css-selector": "~2.3|~3.0",
+            "symfony/dom-crawler": "~2.3|~3.0",
+            "symfony/phpunit-bridge": "~2.7|~3.0",
+            "symfony/twig-bundle": "~2.3|~3.0"
+        },
+        "suggest": {
+            "kriswallsmith/spork": "to be able to dump assets in parallel",
+            "symfony/twig-bundle": "to use the Twig integration"
+        },
+        "time": "2015-12-28T13:12:39+00:00",
+        "type": "symfony-bundle",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.7-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Bundle\\AsseticBundle\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kris Wallsmith",
+                "email": "kris.wallsmith@gmail.com",
+                "homepage": "http://kriswallsmith.net/"
+            }
+        ],
+        "description": "Integrates Assetic into Symfony2",
+        "homepage": "https://github.com/symfony/AsseticBundle",
+        "keywords": [
+            "assets",
+            "compression",
+            "minification"
+        ]
     }
 ]
