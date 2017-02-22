@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 8d2e94202916750ac8ac14040aa1e3677c513278
 nb_users:
     resource: "@NBUsersBundle/Resources/config/routing.yml"
     prefix:   /
@@ -6,6 +10,7 @@ nb_main:
     resource: "@NBMainBundle/Resources/config/routing.yml"
     prefix:   /
 
+<<<<<<< HEAD
 login:
     pattern:   /login
     defaults:  { _controller: NBUsersBundle:Security:login }
@@ -18,3 +23,10 @@ logout:
 
 fos_user_security:
     resource: "@FOSUserBundle/Resources/config/routing/security.xml"
+=======
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+=======
+>>>>>>> 3eee283371f7e24f07f02f2e5e0f85bb6e06afa9
+>>>>>>> 8d2e94202916750ac8ac14040aa1e3677c513278
