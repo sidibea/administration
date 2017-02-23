@@ -1,3 +1,21 @@
 nb_main_homepage:
     path:     /
     defaults: { _controller: NBMainBundle:Main:index }
+nb_main_liste_des_compagnie:
+    path:     /compagnie/liste-des-compagnie
+    defaults: { _controller: NBMainBundle:Compagnie:list }
+nb_main_ajouter_compagnie:
+    path:     /compagnie/ajouter-une-compagnie
+    defaults: { _controller: NBMainBundle:Compagnie:add }
+nb_main_modifier_compagnie:
+    path:     /compagnie/modifier-une-compagnie/{id}
+    defaults: { _controller: NBMainBundle:Compagnie:edit }
+nb_main_supprimer_compagnie:
+    path:     /compagnie/supprimer-une-compagnie/{id}
+    defaults: { _controller: NBMainBundle:Compagnie:delete }
+nb_main_liste_utilisateur_compagnie:
+    path:     /compagnie/liste-utilisateur-compagnie/{compagnie_id}
+    defaults: { _controller: NBMainBundle:Compagnie:users }
+nb_main_ajouter_compagnie_utilisateur:
+    path:     /compagnie/liste-utilisateur-compagnie/{compagnie_id}/nouveau
+    defaults: { _controller: NBMainBundle:Compagnie:usersAdd }

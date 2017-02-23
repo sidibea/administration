@@ -1,1 +1,19 @@
 {% extends '::base.html.twig' %}
+
+{% block title %} Tableau de Bord  {{ parent() }} {% endblock %}
+
+
+{% block contentheader %}
+    <h1>
+        Tableau de Bord
+        <small>Panneau d'administration</small>
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="{{ path('nb_main_homepage') }}"><i class="fa fa-dashboard"></i> Accueil</a></li>
+        <li class="active">Tableau de Bord</li>
+    </ol>
+{% endblock %}
+
+{% block content %}
+
+{% endblock %}

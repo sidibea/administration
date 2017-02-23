@@ -22,6 +22,21 @@ class Users extends BaseUsers
      */
    protected $id;
 
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="nom", type="string", nullable=true, length=255)
+     */
+    private $nom;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="prenom", type="string", nullable=true, length=255)
+     */
+    private $prenom;
+
+
 
     /**
      * Get id
@@ -32,5 +47,39 @@ class Users extends BaseUsers
     {
         return $this->id;
     }
+
+    /**
+     * @return string
+     */
+    public function getNom()
+    {
+        return $this->nom;
+    }
+
+    /**
+     * @param string $nom
+     */
+    public function setNom($nom)
+    {
+        $this->nom = $nom;
+    }
+
+    /**
+     * @return string
+     */
+    public function getPrenom()
+    {
+        return $this->prenom;
+    }
+
+    /**
+     * @param string $prenom
+     */
+    public function setPrenom($prenom)
+    {
+        $this->prenom = $prenom;
+    }
+
+
 }
 

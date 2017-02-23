@@ -15,13 +15,12 @@ class AppKernel extends Kernel
             new Symfony\Bundle\SwiftmailerBundle\SwiftmailerBundle(),
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
-
-
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
-
             new FOS\UserBundle\FOSUserBundle(),
             new NB\MainBundle\NBMainBundle(),
             new NB\UsersBundle\NBUsersBundle(),
+            new Ivory\CKEditorBundle\IvoryCKEditorBundle(),
+
         );
 
 

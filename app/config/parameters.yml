@@ -7,6 +7,7 @@ parameters:
     database_password: fatou95
     mailer_transport: smtp
     mailer_host: 127.0.0.1
+    logo_directory: '%kernel.root_dir%/../web/assets/images/uploads/compagnies/logo'
     mailer_user: null
     mailer_password: null
     secret: 2c143d9251ebdc25707b99fc61c62f8036f6d114
