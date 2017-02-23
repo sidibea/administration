@@ -9,7 +9,9 @@
 namespace NB\MainBundle\Controller;
 
 
+use NB\MainBundle\Entity\Ville;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\HttpFoundation\Request;
 
 class AxesController  extends Controller{
 
@@ -28,5 +30,7 @@ class AxesController  extends Controller{
             'list' => $list
         ]);
     }
+
+
 
 }
