@@ -40,7 +40,7 @@
         </a>
         <ul class="treeview-menu">
             <li><a href="{{ path('nb_main_liste_des_axes') }}"><i class="fa fa-circle-o"></i> Axes</a></li>
-            <li><a href="../layout/boxed.html"><i class="fa fa-circle-o"></i> Villes</a></li>
+            <li><a href="{{ path('nb_main_liste_des_villes') }}"><i class="fa fa-circle-o"></i> Villes</a></li>
         </ul>
     </li>
     <li class="treeview">
@@ -49,9 +49,12 @@
             <span>Voyages</span>
             <!--<span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
-            </span>
+            </span>-->
         </a>
         <ul class="treeview-menu">
+            <li><a href="{{ path('nb_main_liste_des_voyages') }}"></a></li>
+        </ul>
+       <!-- <ul class="treeview-menu">
             <li><a href="../charts/chartjs.html"><i class="fa fa-circle-o"></i> ChartJS</a></li>
             <li><a href="../charts/morris.html"><i class="fa fa-circle-o"></i> Morris</a></li>
             <li><a href="../charts/flot.html"><i class="fa fa-circle-o"></i> Flot</a></li>
@@ -66,6 +69,9 @@
               <i class="fa fa-angle-left pull-right"></i>
             </span>
         </a>
+        <ul class="treeview-menu">
+            <li><a href="{{ path('nb_main_liste_gestion_des_promotions') }}"></a></li>
+        </ul>
        <!-- <ul class="treeview-menu">
             <li><a href="../UI/general.html"><i class="fa fa-circle-o"></i> General</a></li>
             <li><a href="../UI/icons.html"><i class="fa fa-circle-o"></i> Icons</a></li>
@@ -83,12 +89,12 @@
             </span>
         </a>
         <ul class="treeview-menu">
-            <li><a href="../forms/general.html"><i class="fa fa-circle-o"></i> Termes et conditions</a></li>
-            <li><a href="../forms/advanced.html"><i class="fa fa-circle-o"></i> Politique de confidentialité</a></li>
-            <li><a href="../forms/editors.html"><i class="fa fa-circle-o"></i>Blog</a></li>
-            <li><a href="../forms/editors.html"><i class="fa fa-circle-o"></i>Professionel</a></li>
-            <li><a href="../forms/editors.html"><i class="fa fa-circle-o"></i>Modification voyage</a></li>
-            <li><a href="../forms/editors.html"><i class="fa fa-circle-o"></i>Annulation voyage</a></li>
+            <li><a href="{{ path('nb_main_liste_termes_et_conditions') }}"><i class="fa fa-circle-o"></i> Termes et conditions</a></li>
+            <li><a href="{{ path('nb_main_liste_de_confidentialite') }}"><i class="fa fa-circle-o"></i> Politique de confidentialité</a></li>
+            <li><a href="{{ path('nb_main_liste_blog') }}"><i class="fa fa-circle-o"></i>Blog</a></li>
+            <li><a href="{{ path('nb_main_liste_professionel') }}"><i class="fa fa-circle-o"></i>Professionel</a></li>
+            <li><a href="{{ path('nb_main_liste_modification_voyage') }}"><i class="fa fa-circle-o"></i>Modification voyage</a></li>
+            <li><a href="{{ path('nb_main_liste_annulation_voyage') }}"><i class="fa fa-circle-o"></i>Annulation voyage</a></li>
         </ul>
     </li>
     <li class="treeview">
@@ -103,7 +109,7 @@
             <li><a href="../tables/data.html"><i class="fa fa-circle-o"></i> Data tables</a></li>
         </ul>-->
     </li>
-    <li>
+   <!-- <li>
         <a href="../calendar.html">
             <i class="fa fa-calendar"></i> <span>Calendar</span>
             <span class="pull-right-container">
@@ -178,5 +184,5 @@
     <li class="header">LABELS</li>
     <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Important</span></a></li>
     <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Warning</span></a></li>
-    <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> <span>Information</span></a></li>
+    <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> <span>Information</span></a></li>-->
 </ul>
