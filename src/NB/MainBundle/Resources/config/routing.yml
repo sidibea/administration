@@ -19,3 +19,5 @@ nb_main_liste_utilisateur_compagnie:
 nb_main_ajouter_compagnie_utilisateur:
     path:     /compagnie/liste-utilisateur-compagnie/{compagnie_id}/nouveau
     defaults: { _controller: NBMainBundle:Compagnie:usersAdd }
+nb_main_liste_des_axes:
+    path:     /compagnie/liste-des-compagnie
