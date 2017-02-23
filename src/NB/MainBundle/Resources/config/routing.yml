@@ -25,3 +25,6 @@ nb_main_liste_des_axes:
 nb_main_modifier_axes:
     path:     /axes/modifier-un-axe/{id}
     defaults: { _controller: NBMainBundle:Axes:edit }
+nb_main_modifier_axess:
+    path:     /axes/modifier-un-axe/{id}
+    defaults: { _controller: NBMainBundle:Axes:edit }
