@@ -82,6 +82,12 @@ nb_main_liste_annulation_voyage:
 nb_main_modifier_annulation_voyage:
     path:     /annul_voyage/modifier-annulation-voyage
     defaults: { _controller: NBMainBundle:annulationVoyage:edit }
+nb_main_liste_seatseller:
+    path:     /seatseller/liste-seatseller
+    defaults: { _controller: NBMainBundle:Professionel:list }
+nb_main_modifier_professionel:
+    path:     /professionel/modifier-professionel
+    defaults: { _controller: NBMainBundle:Professionel:edit }
 
 
 
