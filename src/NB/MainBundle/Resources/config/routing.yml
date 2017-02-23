@@ -20,4 +20,8 @@ nb_main_ajouter_compagnie_utilisateur:
     path:     /compagnie/liste-utilisateur-compagnie/{compagnie_id}/nouveau
     defaults: { _controller: NBMainBundle:Compagnie:usersAdd }
 nb_main_liste_des_axes:
-    path:     /compagnie/liste-des-compagnie
+    path:     /axes/liste-des-axes
+    defaults: { _controller: NBMainBundle:Axes:list }
+nb_main_modifier_axes:
+    path:     /axes/modifier-un-axe/{id}
+    defaults: { _controller: NBMainBundle:Axes:edit }
