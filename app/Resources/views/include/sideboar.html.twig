@@ -57,8 +57,8 @@
             </span>-->
         </a>
         <ul class="treeview-menu">
-            <li><a href="{{ path('nb_main_liste_des_voyages') }}">Voyages</a></li>
-            <li><a href="{{ path('nb_main_liste_des_point_embarquement') }}">Points d'embarquement</a></li>
+            <li><a href="{{ path('nb_main_liste_des_voyages') }}"><i class="fa fa-circle-o">Voyages</i></a></li>
+            <li><a href="{{ path('nb_main_liste_des_point_embarquement') }}"><i class="fa fa-circle-o">Points d'embarquement</i></a></li>
 
         </ul>
        <!-- <ul class="treeview-menu">
@@ -96,25 +96,41 @@
             </span>
         </a>
         <ul class="treeview-menu">
-            <li><a href="{{ path('nb_main_liste_termes_et_conditions') }}"><i class="fa fa-circle-o"></i> Termes et conditions</a></li>
-            <li><a href="{{ path('nb_main_liste_de_confidentialite') }}"><i class="fa fa-circle-o"></i> Politique de confidentialité</a></li>
-            <li><a href="{{ path('nb_main_liste_blog') }}"><i class="fa fa-circle-o"></i>Blog</a></li>
-            <li><a href="{{ path('nb_main_liste_professionel') }}"><i class="fa fa-circle-o"></i>Professionel</a></li>
-            <li><a href="{{ path('nb_main_liste_modification_voyage') }}"><i class="fa fa-circle-o"></i>Modification voyage</a></li>
-            <li><a href="{{ path('nb_main_liste_annulation_voyage') }}"><i class="fa fa-circle-o"></i>Annulation voyage</a></li>
+            <li><a href="{{ path('nb_main_termes_et_conditions') }}"><i class="fa fa-circle-o"></i> Termes et conditions</a></li>
+            <li><a href="{{ path('nb_main_confidentialite') }}"><i class="fa fa-circle-o"></i> Politique de confidentialité</a></li>
+            <li><a href="{{ path('nb_main_blog') }}"><i class="fa fa-circle-o"></i>Blog</a></li>
+            <li><a href="{{ path('nb_main_professionel') }}"><i class="fa fa-circle-o"></i>Professionel</a></li>
+            <li><a href="{{ path('nb_main_modification_voyage') }}"><i class="fa fa-circle-o"></i>Modification voyage</a></li>
+            <li><a href="{{ path('nb_main_annulation_voyage') }}"><i class="fa fa-circle-o"></i>Annulation voyage</a></li>
         </ul>
     </li>
     <li class="treeview">
         <a href="#">
             <i class="fa fa-table"></i> <span>Gestion Newsletter</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
         </a>
+        <ul class="treeview-menu">
+            <li><a href="{{ path('nb_main_liste_gestion_newsletter') }}"></a></li>
+        </ul>
        <!-- <ul class="treeview-menu">
             <li><a href="../tables/simple.html"><i class="fa fa-circle-o"></i> Simple tables</a></li>
             <li><a href="../tables/data.html"><i class="fa fa-circle-o"></i> Data tables</a></li>
         </ul>-->
+    </li>
+    <li class="treeview">
+        <a href="#">
+            <i class="fa fa-edit"></i> <span>Statistiques</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+        </a>
+        <ul class="treeview-menu">
+            <li><a href="{{ path('nb_main_termes_et_conditions') }}"><i class="fa fa-circle-o"></i> Termes et conditions</a></li>
+            <li><a href="{{ path('nb_main_confidentialite') }}"><i class="fa fa-circle-o"></i> Politique de confidentialité</a></li>
+            <li><a href="{{ path('nb_main_blog') }}"><i class="fa fa-circle-o"></i>Blog</a></li>
+            <li><a href="{{ path('nb_main_professionel') }}"><i class="fa fa-circle-o"></i>Professionel</a></li>
+            <li><a href="{{ path('nb_main_modification_voyage') }}"><i class="fa fa-circle-o"></i>Modification voyage</a></li>
+            <li><a href="{{ path('nb_main_annulation_voyage') }}"><i class="fa fa-circle-o"></i>Annulation voyage</a></li>
+        </ul>
     </li>
    <!-- <li>
         <a href="../calendar.html">
