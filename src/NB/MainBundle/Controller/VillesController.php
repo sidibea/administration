@@ -7,8 +7,11 @@
  */
 
 namespace NB\MainBundle\Controller;
+use NB\MainBundle\Entity\Ville;
+use NB\MainBundle\Form\VilleEditType;
 use NB\MainBundle\Form\VilleType;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\HttpFoundation\Request;
 
 
 class VillesController extends Controller
@@ -17,7 +20,7 @@ class VillesController extends Controller
 
         $em = $this->getDoctrine()->getManager();
 
-        $list = $em->getRepository('NBMainBundle:Axes')->findAll();
+        $list = $em->getRepository('NBMainBundle:Ville')->findAll();
 
 
 
@@ -43,7 +46,7 @@ class VillesController extends Controller
 
                 //Transfer le fichier dans le repertoire ou le logo doit etre stocker
                 $photo->move(
-                    $this->getParameter('logo_directory'),
+                    $this->getParameter('photo_directory'),
                     $photoName
                 );
 
@@ -53,12 +56,12 @@ class VillesController extends Controller
             }
 
             $ville->setCreatedAt(new \datetime);
-            $ville->setUpdatedAt(new \datetime);
+            $ville->setUpdateAt(new \datetime);
             $em->persist($ville);
             $em->flush();
 
-            $request->getSession()->getFlashBag()->add('notice', 'Le bus bien ete enregistrée.');
-            return $this->redirect($this->generateUrl('nb_main_city'));
+            $request->getSession()->getFlashBag()->add('notice', 'La ville bien ete enregistrée.');
+            return $this->redirect($this->generateUrl('nb_main_liste_des_villes'));
 
         }
 
@@ -67,6 +70,48 @@ class VillesController extends Controller
         ]);
 
     }
+
+    public function editAction($id, Request $request){
+
+        $em = $this->getDoctrine()->getManager();
+
+        $ville = $em->getRepository('NBMainBundle:Ville')->find($id);
+        $form = $this->get('form.factory')->create(new VilleEditType(), $ville);
+
+        if ($form->handleRequest($request)->isValid()) {
+
+            $photo = $form->get('photo')->getData();
+
+            if($photo != null){
+                // Genere un nom unique du fichier avant le stocker
+                $photoName = md5(uniqid()).'.'.$photo->guessExtension();
+
+                //Transfer le fichier dans le repertoire ou le logo doit etre stocker
+                $photo->move(
+                    $this->getParameter('photo_directory'),
+                    $photoName
+                );
+
+                $ville->setPhoto($photoName);
+            }else{
+                $ville->setPhoto(null);
+            }
+
+            $em->flush();
+
+            $request->getSession()->getFlashBag()->add('notice', 'La ville a bien ete modifiée.');
+
+            return $this->redirect($this->generateUrl('nb_main_liste_des_villes'));
+        }
+
+        return$this->render('NBMainBundle:Villes:edit.html.twig', [
+            'form' => $form->createView(),
+            'ville' => $ville
+        ]);
+
+    }
+
+
 
 
 

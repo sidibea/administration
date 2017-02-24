@@ -1,6 +1,6 @@
 {% extends '::base.html.twig' %}
 
-{% block title %} Compagnie  {{ parent() }} {% endblock %}
+{% block title %} Ville  {{ parent() }} {% endblock %}
  {% block pagestyle %}
      <!-- iCheck for checkboxes and radio inputs -->
      <link rel="stylesheet" href="{{ absolute_url(asset('assets/plugins/iCheck/all.css')) }}">
@@ -9,7 +9,7 @@
 {% block contentheader %}
     <h1>
         Ville
-        <small>Ajouter une ville</small>
+        <small>Modifier une ville</small>
     </h1>
     <ol class="breadcrumb">
         <li><a href="{{ path('nb_main_homepage') }}"><i class="fa fa-dashboard"></i> Accueil</a></li>
@@ -22,7 +22,7 @@
         <div class="col-md-12">
             <div class="box box-default">
                 <div class="box-header with-border">
-                    <h3 class="box-title">Nouvelle ville</h3>
+                    <h3 class="box-title">Modifier une ville</h3>
                 </div>
                 {{ form_start(form, {'attr': {'id': '', 'class' : 'form-horizontal' }}) }}
 
@@ -58,6 +58,7 @@
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label>Logo</label>
+                                    <img src="{{ absolute_url(asset('assets/images/uploads/compagnies/photo/'~ville.photo)) }}" width="40" height="40" alt=""/>
                                     {{ form_widget(form.photo, {'attr': {'class': 'file', 'placeholder' : '' }}) }}
                                 </div>
                             </div>

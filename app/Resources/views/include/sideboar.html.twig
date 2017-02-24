@@ -17,19 +17,12 @@
             <i class="fa fa-dashboard"></i> <span>Tableau de Bord</span>
         </a>
     </li>
-    <li class="treeview">
-        <a href="#">
+    <li>
+        <a href="{{ path('nb_main_liste_des_compagnie') }}">
             <i class="fa fa-institution"></i>
             <span>Compagnie de Transport</span>
-            <span class="pull-right-container">
-              <span class="label label-primary pull-right">4</span>
-            </span>
         </a>
-        <ul class="treeview-menu">
-            <li><a href="{{ path('nb_main_liste_des_compagnie') }}"><i class="fa fa-circle-o"></i> Compagnie de Transport</a></li>
-            <li><a href="../layout/boxed.html"><i class="fa fa-circle-o"></i> Utilisateurs</a></li>
-            <li><a href="../layout/fixed.html"><i class="fa fa-circle-o"></i> Point d'embarquement</a></li>
-        </ul>
+
     </li>
     <li>
         <a href="../widgets.html">
@@ -37,7 +30,7 @@
             <span class="pull-right-container"></span>
         </a>
         <ul class="treeview-menu">
-            <li><a href="{{ path('nb_main_liste_des_seatseller') }}"></a></li>
+            <li><a href="{{ path('nb_main_liste_seatseller') }}"></a></li>
         </ul>
     </li>
     <li>
@@ -56,12 +49,17 @@
         <a href="#">
             <i class="fa fa-pie-chart"></i>
             <span>Voyages</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
             <!--<span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>-->
         </a>
         <ul class="treeview-menu">
-            <li><a href="{{ path('nb_main_liste_des_voyages') }}"></a></li>
+            <li><a href="{{ path('nb_main_liste_des_voyages') }}">Voyages</a></li>
+            <li><a href="{{ path('nb_main_liste_des_point_embarquement') }}">Points d'embarquement</a></li>
+
         </ul>
        <!-- <ul class="treeview-menu">
             <li><a href="../charts/chartjs.html"><i class="fa fa-circle-o"></i> ChartJS</a></li>
